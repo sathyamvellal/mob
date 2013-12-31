@@ -17,13 +17,12 @@ body {
                         border: 2px solid $primary-color1;
                         
                         color: $primary-color1;
-                        background-color: $bg-image;
                         transition-duration: 0.4s;
                         -webkit-transition-duration: 0.4s;
                         -moz-transition-duration: 0.4s;
                         
                         &:visited {
-                            color: $primary-color1;
+                            color: inherit;
                         }
                         &:hover {
                             color: white;

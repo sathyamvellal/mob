@@ -1,0 +1,38 @@
+body {
+    background-image: $bg-image;
+    color: $primary-color1;
+}
+
+div.container {
+    div.nav {
+        ul.navbar {
+            div.items {
+                li {
+                    a {
+                        text-decoration: none;
+                        color: $primary-color1;
+                        transition-duration: 0.4s;
+                        -webkit-transition-duration: 0.4s;
+                        -moz-transition-duration: 0.4s;
+                        
+                        &:visited {
+                            text-decoration: none;
+                            color: $primary-color1;
+                        }
+                        &:hover {
+                            background-color: $primary-color1;
+                            color: white;
+                            transition-duration: 0.4s;
+                            -webkit-transition-duration: 0.4s;
+                            -moz-transition-duration: 0.4s;
+                        }
+                        &.nav-active {
+                            background-color: $primary-color1;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

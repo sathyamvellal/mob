@@ -2,9 +2,9 @@
     <ul class="navbar">
         {% for node in site.pages %}
         {% if page.url == node.url %}
-        <li><a href="{{node.url}}" class="active"><span>{{node.title}}</span></a></li>
+        <li><div class="nav-element"><a href="{{node.url}}"><span>{{node.title}}</span></a></div><div class="nav-active"></div></li>
         {% else %}
-        <li><a href="{{node.url}}"><span>{{node.title}}</span></a></li>
+        <li><div class="nav-element"><a href="{{node.url}}"><span>{{node.title}}</span></a></div><div class="nav-inactive"></div></li>
         {% endif %}
         {% endfor %}
     </ul>

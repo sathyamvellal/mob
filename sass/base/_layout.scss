@@ -5,39 +5,53 @@ div.container {
     div.nav {
         width: 100%;
         text-align: right;
-        padding-bottom: 20px;
+        height: 80px;
         margin-bottom: 50px;
         
         ul.navbar {
             li {
                 display: inline-block;
                 
-                a {
-                    padding: 10px 20px 30px 20px;
-                    text-decoration: none;
-                    
-                    span {
+                div.nav-element {
+//                    display: inline;
+                    height: 60px;
+                    position: relative;
+                    top: -12px;
+                    padding: 0 15px;
+                
+                    a {
+                        text-decoration: none;
                         position: relative;
-                        top: 5px;
-                        transition-duration: 0.25s;
-                    }
-                    
-                    &:hover {
-                        text-decoration: underline;
+                        top: 15px;
                         
                         span {
                             position: relative;
-                            top: 10px;
+                            top: 5px;
                             transition-duration: 0.25s;
                         }
-                    }
-                    
-                    &.active {
-                        span {
-                            position: relative;
-                            top: 20px;
+                        &:hover {
+                            text-decoration: underline;
+                            
+                            span {
+                                position: relative;
+                                top: 10px;
+                                transition-duration: 0.25s;
+                            }
                         }
                     }
+                }
+                
+                div.nav-active, div.nav-inactive {
+                    position: relative;
+                    top: -12px;
+                    padding: 0 15px;
+                    height: 10px;
+                }
+                div.nav-active {
+                    background-color: red;
+                }
+                div.nav-inactive {
+                    visibility: hidden;
                 }
             }
         }

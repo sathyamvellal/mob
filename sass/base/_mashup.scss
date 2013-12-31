@@ -7,8 +7,12 @@ div.container {
         ul.navbar {
             li {
                 a {
-                    border: 1px solid black;
+//                    border: 1px solid black;
                 }
+                
+                div {
+                    border: 1px solid black;
+                }                    
             }
         }
     }

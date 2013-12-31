@@ -1,57 +1,20 @@
 div.container {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     
     div.nav {
         width: 100%;
-        text-align: right;
-        height: 80px;
-        margin-bottom: 50px;
+        text-align: right;        
+        margin: 22px 0 50px 0;
         
         ul.navbar {
             li {
                 display: inline-block;
                 
-                div.nav-element {
-//                    display: inline;
-                    height: 60px;
-                    position: relative;
-                    top: -12px;
-                    padding: 0 15px;
-                
-                    a {
-                        text-decoration: none;
-                        position: relative;
-                        top: 15px;
-                        
-                        span {
-                            position: relative;
-                            top: 5px;
-                            transition-duration: 0.25s;
-                        }
-                        &:hover {
-                            text-decoration: underline;
-                            
-                            span {
-                                position: relative;
-                                top: 10px;
-                                transition-duration: 0.25s;
-                            }
-                        }
-                    }
-                }
-                
-                div.nav-active, div.nav-inactive {
-                    position: relative;
-                    top: -12px;
-                    padding: 0 15px;
-                    height: 10px;
-                }
-                div.nav-active {
-                    background-color: red;
-                }
-                div.nav-inactive {
-                    visibility: hidden;
+                a {
+                    margin-right: 5px;
+                    padding: 10px 20px;
+                    text-decoration: none; 
                 }
             }
         }

@@ -1,0 +1,54 @@
+body {
+    background-image: $bg-image;
+    color: $primary-color1;
+    
+    hr {
+        border: 0;
+        height: 0;
+        border-top: 1.3px solid rgba(33, 33, 33, 0.2);
+        border-bottom: 1.3px solid rgba(184, 184, 184, 0.3);
+    }
+    
+    div.container {
+        div.nav {
+            ul.navbar {
+                li {
+                    a {
+                        border: 2px solid $primary-color1;
+                        
+                        color: $primary-color1;
+                        background-color: $bg-image;
+                        transition-duration: 0.4s;
+                        
+                        &:visited {
+                            color: $primary-color1;
+                        }
+                        &:hover {
+                            color: white;
+                            background-color: $primary-color1;
+                            transition-duration: 0.4s;
+                        }
+                        &.nav-active {
+                            color: white;
+                            background-color: $primary-color1;
+                        }
+                    }
+                }
+            }
+        }
+        
+        div.content {
+            a {
+                color: $link-color1;
+                text-decoration: none;
+                
+                &:hover {
+                    text-decoration: underline;
+                }
+                &:visited {
+                    color: $link-color1;
+                }
+            }
+        }
+    }
+}

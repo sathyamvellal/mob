@@ -1,0 +1,23 @@
+div.container {
+//    border: 1px solid black;
+    
+    div.nav {
+        border: 1px solid black;
+        
+        ul.navbar {
+            li {
+                a {
+                    border: 1px solid black;
+                }
+            }
+        }
+    }
+    
+    div.content {
+        border: 1px solid black;
+    }
+    
+//    div.footer {
+//        border: 1px solid black;
+//    }
+}

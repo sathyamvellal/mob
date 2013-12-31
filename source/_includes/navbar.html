@@ -1,8 +1,11 @@
 <nav>
-    <ul>
-        <li><a href="{{root_url}}/" class="active">Home</a></li>
-        <li><a href="{{root_url}}/blog">Blog</a></li>
-        <li><a href="{{root_url}}/about">About</a></li>
-        <li><a href="{{root_url}}/archives">Archives</a></li>
+    <ul class="navbar">
+        {% for node in site.pages %}
+        {% if page.url == node.url %}
+        <li><a href="{{node.url}}" class="active"><span>{{node.title}}</span></a></li>
+        {% else %}
+        <li><a href="{{node.url}}"><span>{{node.title}}</span></a></li>
+        {% endif %}
+        {% endfor %}
     </ul>
 </nav>

@@ -3,8 +3,42 @@ div.container {
     margin: 0 auto;
     
     div.nav {
-        ul {
+        width: 100%;
+        text-align: right;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+        
+        ul.navbar {
             li {
+                display: inline-block;
+                
+                a {
+                    padding: 10px 20px 30px 20px;
+                    text-decoration: none;
+                    
+                    span {
+                        position: relative;
+                        top: 5px;
+                        transition-duration: 0.25s;
+                    }
+                    
+                    &:hover {
+                        text-decoration: underline;
+                        
+                        span {
+                            position: relative;
+                            top: 10px;
+                            transition-duration: 0.25s;
+                        }
+                    }
+                    
+                    &.active {
+                        span {
+                            position: relative;
+                            top: 20px;
+                        }
+                    }
+                }
             }
         }
     }

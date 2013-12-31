@@ -1,1 +1,49 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);div.container{width:90%;margin:0 auto}div.container div.nav{width:100%;text-align:right;margin:22px 0 50px 0}div.container div.nav ul.navbar li{display:inline-block}div.container div.nav ul.navbar li a{margin-right:5px;padding:10px 20px;text-decoration:none}body{background-image:url("/images/bg.png");color:#424242}body hr{border:0;height:0;border-top:1.3px solid rgba(33,33,33,0.2);border-bottom:1.3px solid rgba(184,184,184,0.3)}body div.container div.nav ul.navbar li a{border:2px solid #424242;color:#424242;background-color:url("/images/bg.png");transition-duration:0.4s}body div.container div.nav ul.navbar li a:visited{color:#424242}body div.container div.nav ul.navbar li a:hover{color:white;background-color:#424242;transition-duration:0.4s}body div.container div.nav ul.navbar li a.nav-active{color:white;background-color:#424242}body div.container div.content a{color:#df7401;text-decoration:none}body div.container div.content a:hover{text-decoration:underline}body div.container div.content a:visited{color:#df7401}body{background-image:url("/images/bg.png");color:#424242;font-family:"Roboto Slab",serif}
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+div.container {
+  width: 90%;
+  margin: 0 auto; }
+  div.container div.nav {
+    width: 100%;
+    text-align: right;
+    margin: 22px 0 50px 0; }
+    div.container div.nav ul.navbar li {
+      display: inline-block; }
+      div.container div.nav ul.navbar li a {
+        margin-right: 5px;
+        padding: 10px 20px;
+        text-decoration: none; }
+
+body {
+  background-image: url("/images/bg.png");
+  color: #424242; }
+  body hr {
+    border: 0;
+    height: 0;
+    border-top: 1.3px solid rgba(33, 33, 33, 0.2);
+    border-bottom: 1.3px solid rgba(184, 184, 184, 0.3); }
+  body div.container div.nav ul.navbar li a {
+    border: 2px solid #424242;
+    color: #424242;
+    background-color: url("/images/bg.png");
+    transition-duration: 0.4s; }
+    body div.container div.nav ul.navbar li a:visited {
+      color: #424242; }
+    body div.container div.nav ul.navbar li a:hover {
+      color: white;
+      background-color: #424242;
+      transition-duration: 0.4s; }
+    body div.container div.nav ul.navbar li a.nav-active {
+      color: white;
+      background-color: #424242; }
+  body div.container div.content a {
+    color: #df7401;
+    text-decoration: none; }
+    body div.container div.content a:hover {
+      text-decoration: underline; }
+    body div.container div.content a:visited {
+      color: #df7401; }
+
+body {
+  background-image: url("/images/bg.png");
+  color: #424242;
+  font-family: "Roboto Slab", serif; }

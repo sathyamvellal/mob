@@ -1,3 +1,9 @@
 @import "compass";
 
-@import "base";
+@media (min-width: 640px) {
+    @import "base";
+}
+
+@media (max-width: 640px) {
+    @import "mobile";
+}

@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/archives/</loc>
+        <loc>http://sathyamvellal.github.io/mob/archives/</loc>
         <lastmod>2013-12-31T16:42:34+05:30</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/blog/</loc>
+        <loc>http://sathyamvellal.github.io/mob/blog/</loc>
         <lastmod>2013-12-31T16:42:34+05:30</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/about/</loc>
+        <loc>http://sathyamvellal.github.io/mob/about/</loc>
         <lastmod>2013-12-31T16:42:34+05:30</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
+        <loc>http://sathyamvellal.github.io/mob/</loc>
         <lastmod>2013-12-31T18:25:08+05:30</lastmod>
     </url>
 </urlset>

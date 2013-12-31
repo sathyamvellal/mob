@@ -1,7 +1,9 @@
 <nav>
     <ul class="navbar">
         {% sorted_for node in site.pages sort_by:weight %}
+        {% if node.group == "nav" %}
         <li><a href="{{node.url | remove: 'index.html'}}" {% if page.url == node.url %} class="nav-active" {% endif %}><span>{{node.title}}</span></a></li>
+        {% endif %}
         {% endsorted_for %}
     </ul>
 </nav>

@@ -4,5 +4,12 @@ body {
     font-family: $font-main, serif;
     
     div.container {
+        div.content {
+            div.subheader {
+                h3 {
+                    font-style: italic;
+                }
+            }
+        }
     }
 }

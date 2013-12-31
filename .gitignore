@@ -11,6 +11,7 @@ source/_stash
 source/stylesheets/screen.css
 source/stylesheets/foundation.css
 source/stylesheets/normalize.css
+source/stylesheets/404.css
 vendor
 node_modules
 .themes/classic

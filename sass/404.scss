@@ -1,0 +1,20 @@
+@import "base/variables";
+
+body {
+    background-image: $bg-image;
+    width: 70%;
+    margin: 0 auto;
+    color: $primary-color1;
+    font-family: $font-main, serif;
+    text-align: center;
+    letter-spacing: 1.5em;
+    
+    div.number {
+        font-size: 15em;
+    }
+    
+    div.notfound {
+        font-size: 5em;
+        font-weight: 700;
+    }    
+}

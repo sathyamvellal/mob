@@ -19,4 +19,19 @@ div.container {
             }
         }
     }
+    
+    div.content {
+        div.header {
+            text-align: center;
+        }
+        div.subheader {
+            text-align: center;
+            
+            h2, h3 {
+                display: inline;
+            }
+        }
+        div.article {
+        }
+    }
 }

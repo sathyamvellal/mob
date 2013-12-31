@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Home
+weight: 0
 ---
 
 Congue mi phasellus rhoncus, quis fusce rutrum taciti justo. Nec. Amet velit etiam aenean natoque gravida. Gravida viverra nonummy duis vel fusce phasellus mollis. Ante eget porta convallis. Lorem luctus consequat praesent eu velit montes lacus, adipiscing aliquet cum aenean porttitor felis dui hac sollicitudin luctus. Volutpat, metus fermentum varius pharetra dolor. Ligula et mus. Aliquet, purus in. Nisl at vitae nostra malesuada ut, venenatis. Aenean commodo ac. Ad ante diam eni proin mattis litora ridiculus tincidunt. Mattis tincidunt non, orci, nec. Nisi neque habitasse nascetur tellus odio mi dolor mus adipiscing. Ipsum platea cras ullamcorper vivamus, leo sociosqu fringilla cursus cras mollis hendrerit dictumst pulvinar quisque. Sociosqu cras, et dis eget tincidunt neque, ve. Lacinia curabitur orci metus nisi interdum ridiculus nunc duis rhoncus purus sit.

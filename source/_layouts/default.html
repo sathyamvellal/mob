@@ -1,4 +1,4 @@
-{% capture root_url %}{{ site.root }}{% endcapture %}
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 
 <body>
